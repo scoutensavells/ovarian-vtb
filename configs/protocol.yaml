@@ -1,0 +1,22 @@
+protocol:
+  max_rounds: 3
+  conflict_threshold: 0.15
+  epistemic_acts:
+    - propose
+    - challenge
+    - support
+    - synthesize
+conformal:
+  alpha: 0.10
+  bins: 15
+cohorts:
+  public_development: 410
+  public_temporal_holdout: 175
+  retrospective_supporting: 3847
+  prospective_silent_mode: 1462
+  reader_study: 420
+statistics:
+  bootstrap_iterations: 1000
+  stochastic_runs: 5
+  familywise_alpha: 0.05
+  comparisons: 5
